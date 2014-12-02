@@ -1,0 +1,1490 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str_Re",
+				"str_replace"
+			],
+			[
+				"sub",
+				"subscription"
+			],
+			[
+				"paid",
+				"paidSubscription"
+			],
+			[
+				"com",
+				"computer"
+			],
+			[
+				"ex",
+				"existsSubscription"
+			],
+			[
+				"par",
+				"participation"
+			],
+			[
+				"pa",
+				"participations"
+			],
+			[
+				"scr",
+				"screenHeight"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"cdn",
+				"cdn	jQuery"
+			],
+			[
+				"Directory",
+				"DIRECTORY_SEPARATOR"
+			],
+			[
+				"PHP",
+				"PHP_PREFIX"
+			],
+			[
+				"PHP_E",
+				"PHP_EXTENSION_DIR"
+			],
+			[
+				"Dire",
+				"DIRECTORY_SEPARATOR"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"backgroun",
+				"background-clip"
+			],
+			[
+				"toup",
+				"strtoupper"
+			],
+			[
+				"arra",
+				"array_search"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"array",
+				"array_map"
+			],
+			[
+				"content_",
+				"content_type"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"trim",
+				"trim()"
+			],
+			[
+				"Matricula",
+				"matricula_professor"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"v",
+				"var"
+			],
+			[
+				"return",
+				"return_value"
+			],
+			[
+				"proced",
+				"procedimento_hoje"
+			],
+			[
+				"Procedimento",
+				"Procedimentos_Atendimento"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"matricula",
+				"matricula_professor"
+			],
+			[
+				"procedimen",
+				"procedimentos_paciente"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"curs",
+				"curso_not_in"
+			],
+			[
+				"arr",
+				"array_map"
+			],
+			[
+				"palavras",
+				"palavras_chave"
+			],
+			[
+				"strto",
+				"strtolower()"
+			],
+			[
+				"toupp",
+				"strtoupper()"
+			],
+			[
+				"Prontuar",
+				"Num_Prontuario"
+			],
+			[
+				"in",
+				"intval"
+			],
+			[
+				"dT_",
+				"dt_inicio"
+			],
+			[
+				"Data",
+				"dataFim"
+			],
+			[
+				"strtolo",
+				"mb_strtolower"
+			],
+			[
+				"page",
+				"page_title"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"social-networ",
+				"social-networks-item"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"border-bottom",
+				"border-bottom-left-radius"
+			],
+			[
+				"border",
+				"border-top-left-radius"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"paddig",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"border-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"stylesh",
+				"stylesheet_directory"
+			],
+			[
+				"br",
+				"brazilianDate"
+			],
+			[
+				"Proc",
+				"Procedimentos"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"maticula",
+				"matricula_professor"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"str",
+				"str_replace"
+			],
+			[
+				"max",
+				"max_submit_date"
+			],
+			[
+				"nav",
+				"nav-top-secondary"
+			],
+			[
+				"lsit",
+				"list-style"
+			],
+			[
+				"insert",
+				"insert_course"
+			],
+			[
+				"mini",
+				"minicourses"
+			],
+			[
+				"z_in",
+				"z_inscricao_evento"
+			],
+			[
+				"z_eve",
+				"z_evento_minicurso"
+			],
+			[
+				"z_eventos",
+				"z_evento_minicurso"
+			],
+			[
+				"Proced",
+				"Procedimentos_Atendimento"
+			],
+			[
+				"is_lo",
+				"is_logged"
+			],
+			[
+				"z_evento_autor",
+				"z_evento_autores_trabalhos"
+			],
+			[
+				"strip",
+				"stripslashes"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"e",
+				"echo	<?php echo … ?>"
+			],
+			[
+				"author",
+				"author_name"
+			],
+			[
+				"z_evento_",
+				"z_evento_autores"
+			],
+			[
+				"z_evento",
+				"z_evento_trabalhos"
+			],
+			[
+				"a",
+				"attributes"
+			],
+			[
+				"assert",
+				"assertEquals"
+			],
+			[
+				"procedimento",
+				"Procedimentos_Atendimento"
+			],
+			[
+				"nota_",
+				"nota_produtividade"
+			],
+			[
+				"Aluno",
+				"Aluno_Procedimento"
+			],
+			[
+				"my",
+				"mySecondTodo"
+			],
+			[
+				"typeahear",
+				"typeahead-result"
+			],
+			[
+				"res",
+				"result_typeahead"
+			],
+			[
+				"type",
+				"typeahead"
+			],
+			[
+				"procedi",
+				"procedimentos_paciente"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"d",
+				"decimal"
+			],
+			[
+				"list",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 4711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/User/PapersController.php",
+			"settings":
+			{
+				"buffer_size": 1072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/panel/papers/listing.blade.php",
+			"settings":
+			{
+				"buffer_size": 1610,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packages",
+				"Package Control: Disable Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/controllers",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/models",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views/conta",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views/conta/content",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views/papers",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views/papers/content",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views/papers/content/trabalhos"
+	],
+	"file_history":
+	[
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/central/application/controllers/trabalhos.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/views/papers/content/trabalhos/edit.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/helpers/dompdf/include/pdflib_adapter.cls.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/phpunit.xml",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/User/PapersController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/layouts/panel/login.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/layouts/panel/topbar.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/routes.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/login.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/User/LoginController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/layouts/admin/topbar.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/user-data/edit.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/papers/listing.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/testes/parse/index.html",
+		"/C/Users/erick/Documents/GitHub/challenges/solutions/ruby/rosalind/00006.hamm/src/app.rb",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/layouts/panel/sidebar.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/User/RoomsController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/rooms/listing.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/ContasReceber.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/talks/listing.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/RoomsFormValidator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/User/ProfileController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/papers/payment.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/payment.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/TalksFormValidator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/PapersFormValidator.php",
+		"/C/Users/erick/Documents/GitHub/challenges/solutions/ruby/rosalind/00003.revc/src/app.rb",
+		"/C/Users/erick/Documents/GitHub/challenges/solutions/ruby/rosalind/00001.dna/src/app.rb",
+		"/C/Users/erick/Documents/GitHub/challenges/solutions/ruby/rosalind/00004.fib/lib/app.rb",
+		"/C/Users/erick/Documents/GitHub/challenges/solutions/ruby/rosalind/00004.fib/lib/app2.rb",
+		"/C/Users/erick/Documents/GitHub/challenges/solutions/ruby/rosalind/00005.gc/src/app.rb",
+		"/C/Users/erick/Downloads/rpgdomestre/css/main.css",
+		"/C/Users/erick/Downloads/rpgdomestre/index.html",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/sistemas/posgraduacao/admin/inscricoes.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/hotsites/placavirtual/index.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/hotsites/placavirtual/ads/ads-script.js",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/hotsites/placavirtual/ads/ajax/adsImages.json",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/hotsites/placavirtual/ads/ajax/adsImages.html",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/User.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/FormValidator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/UpdateFormValidator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/libraries/dates.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/lang/pt/subscription.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/start/global.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/User/PaymentController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/public/index.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/storage/logs/laravel.log",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/PagSeguro.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/config/pagseguro.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/filters.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/libraries/PagSeguroLibrary/exception/PagSeguroServiceException.class.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/config/event.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/HomeController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/libraries/PagSeguroLibrary/PagSeguroLibrary.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/models/model_pagueseguro.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/controllers/pagueseguro.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/composer/autoload_classmap.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/controllers/inscricao.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/controllers/conta.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/teste/application/models/model_eventos.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/ParticipacaoEvento.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/InscricaoEvento.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/nikic/php-parser/test/code/parser/stmt/blocklessStatement.test",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/test-suite/lib/yaymock/classes/Yay/StateMachine.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/test-suite/lib/yaymock/classes/Yay/State.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/Static.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/bootstrap/start.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/nesbot/carbon/tests/SubTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/SigninController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/libraries/i18n.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/libraries/subscription.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/InteressadosProcesso.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/FormValidatorException.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/User/Payment.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/PlanoContas.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Validation/LoginFormValidator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Payment.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/models/Payment",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/config/app.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/lang/en/subscription.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/lang/fr/subscription.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/edit.blade.php",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Program Files (x86)/Brackets/www/styles/brackets.min.css",
+		"/C/Program Files (x86)/Brackets/www/config.json",
+		"/C/Program Files (x86)/Brackets/www/main.js",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/layouts/panel/profile.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/panel/principal.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/controllers/Admin/CMSController.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/layouts/topbar.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/authentication.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/phpseclib/phpseclib/AUTHORS",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/config/auth.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/bootstrap/autoload.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/symfony/routing/Symfony/Component/Routing/Matcher/ApacheUrlMatcher.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/lang/pt/aside.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Auth/Guard.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Auth/DatabaseUserProvider.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Auth/composer.json",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/app/views/emails/auth/reminder.blade.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/Session/Flash/AutoExpireFlashBagTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Flash/AutoExpireFlashBag.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Exception/UnauthorizedHttpException.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/laravel/framework/src/Illuminate/Foundation/Console/AutoloadCommand.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/ApacheUrlMatcherTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/autorun_test.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/autorun.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/predis/predis/lib/Predis/Autoloader.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/nikic/php-parser/lib/PHPParser/Autoloader.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/d11wtq/boris/lib/autoload.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/composer/autoload_real.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/composer/autoload_psr4.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/composer/autoload_namespaces.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/composer/autoload_files.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/predis/predis/autoload.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/autoload.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/CramMd5AuthenticatorTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/predis/predis/tests/Predis/Command/ConnectionAuthTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/predis/predis/lib/Predis/Command/ConnectionAuth.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php",
+		"//10.1.1.5/sites$/novouninovafapi/wordpress/eventos/ixjirs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 212.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"+'\">'++'</",
+			"url(../img/background",
+			"backgroun",
+			"$8",
+			"$7",
+			"$6",
+			"$5",
+			"$4",
+			"$3",
+			"$6",
+			"__5",
+			"$5",
+			"__4",
+			"$4",
+			"__3",
+			"$3",
+			"__2",
+			"__1",
+			"$2",
+			"3",
+			"Jogos!$B$4:$P$4",
+			"Jogos!$B$7:$P$7",
+			"Jogos!$B$6:$P$6",
+			"Jogos!$B$5:$P$5",
+			"Jogos!$B$4:$P$4",
+			"Jogos!$B$3:$P$3",
+			"Jogos!B3:P3",
+			"profissao",
+			"perfil",
+			"dd(",
+			"echo",
+			"var_",
+			"create_billet",
+			"billet",
+			"$this->subscription",
+			"$this->participation",
+			", SQLSRV_PARAM_IN",
+			"),",
+			"array(",
+			"PARAM_STMT",
+			", PDO::PARAM_INT",
+			"get_billet_value",
+			"get_event_description",
+			"updateUser",
+			"{\n",
+			"updateUser",
+			",",
+			"signup",
+			"pt",
+			"posts",
+			"clear_fix",
+			"$lang",
+			"p{",
+			"admin",
+			"dd(",
+			"perfil",
+			"dadosPEssoais",
+			"createUser",
+			"_cleanUpFormData",
+			"}\";",
+			"\"{",
+			"\"'{",
+			"}'\";",
+			"helpers",
+			"]",
+			"[",
+			" = ",
+			"=",
+			"=> ,",
+			"            </",
+			"File",
+			"());\n",
+			"File",
+			",\n",
+			"('/')}}\">",
+			"segment",
+			"var",
+			" }}",
+			"{{ Lang::get(",
+			" }}",
+			"{{ Lang::get",
+			"\n",
+			"editando",
+			"NOVAFAPI",
+			"novafapi",
+			"NOVAFAPI",
+			"novafapi",
+			"url",
+			"/site/",
+			"logos",
+			"logo",
+			"70px",
+			"logos",
+			"slides li",
+			"logo",
+			"$parent",
+			"freitas",
+			"comitÊ",
+			"animais",
+			";\n",
+			"yield",
+			"yields",
+			"yieldss",
+			"yields",
+			"yieldss",
+			"yields",
+			"”",
+			"“",
+			"width",
+			"img-res",
+			"height",
+			"min-height",
+			"@media",
+			"noticias",
+			"events-slider-title",
+			"jssort11",
+			"col-xs-20 ",
+			"social-icons-header",
+			".social-icons-header",
+			"social-icons-header",
+			"news-slider-title",
+			"top: ",
+			"%;\n",
+			".slideshow",
+			".slideshow ",
+			".slider{",
+			".slider",
+			"nav-button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$7",
+			"$6",
+			"$5",
+			"$4",
+			"$3",
+			"$2",
+			"__2",
+			"$3",
+			"2",
+			"__1",
+			"Jogos!$B$8:$P$8",
+			"Jogos!$B$7:$P$7",
+			"Jogos!$B$6:$P$6",
+			"Jogos!$B$5:$P$5",
+			"Jogos!$B$4:$P$4",
+			"Jogos!$B$3:$P$3",
+			",",
+			"",
+			", SQLSRV_PARAM_IN",
+			"SQLSRV_PARAM_IN",
+			"",
+			";",
+			"clearfix",
+			"$user->lang",
+			";",
+			"",
+			";",
+			"",
+			".",
+			" => ",
+			"=>",
+			"=> '',",
+			"',\n'",
+			"slug",
+			"@lang(",
+			"",
+			"@lang",
+			"	",
+			"",
+			"UNINOVAFAPI",
+			"./site/",
+			"\"",
+			"</div",
+			"<div",
+			"</div",
+			"<div",
+			"</div",
+			"<div",
+			"</div",
+			"<div",
+			"<button>Enviar</button>",
+			"2014/inauguracao",
+			"site_url",
+			"base_url",
+			"base_url(\"",
+			"site_url(",
+			"",
+			"site_url(",
+			"base_url(\"index.php/",
+			"",
+			"<!-- <li><a href=\"#\">Oportunidades</a>\n                <ul>\n                  <li><a href=\"oportunidade.php\">Trabalhe no Shopping</a></li>\n                  <li><a href=\"oportunidade-lojas.php\">Trabalhe nas Lojas</a></li>\n                </ul>\n              </li> -->",
+			"<br/>\n                Contatos para comercialização: (86) 3323.7000 | (86) 9821.0082 — comercial@imalls.com.br<br/>Av. São Sebastião, 3429 — Parnaíba/PI</p>",
+			"<!--<div class=\"featured\">\n            <img src=\"assets/img/front/banners/main.jpg\" alt=\"\">\n          </div>-->",
+			"",
+			"2014/janeiro",
+			"novembro",
+			"<?php echo (!empty($post)) ? $post['author']['",
+			"class=\"row-fluid\"",
+			" style=\"width:66px; text-align:center; margin:1px 0;\"",
+			"R$",
+			"/mês",
+			"h2",
+			"p class=\"lead nav-sitemap-header\"",
+			"",
+			":5px;",
+			"outubro",
+			"806",
+			"1140",
+			"905",
+			"1280",
+			" &mdash; ",
+			"&ocirc;",
+			"&ecirc;",
+			"&acirc;",
+			"&ccedil;",
+			"&otilde;",
+			"&atilde;",
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"<td style=\"border: 1px solid #000000;\"",
+			"<td style=\"border: 1px solid #000000;\" ",
+			"setembro",
+			"','",
+			"<h2 style=\"color:#fff; ",
+			"&ccedil;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"&otilde;",
+			"&atilde;",
+			")</small></li>",
+			"</strong><br/><small>(",
+			"</strong><br/><small>",
+			"&mdash;",
+			"&Aacute;",
+			"&Ccedil;&Atilde;",
+			"&mdash;",
+			"o.",
+			"&agrave;",
+			"&ccedil;",
+			"&ocirc;",
+			"&ecirc;",
+			"&otilde;",
+			"&atilde;",
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"-",
+			"julho",
+			"junho"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "\\\\10.1.1.5\\sites$\\novouninovafapi\\wordpress\\eventos\\ixjirs"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "\\\\10.1.1.5\\sites$\\novouninovafapi\\wordpress\\eventos\\teste"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/User/PapersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/panel/papers/listing.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"assets\\css\\styles.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"app",
+				"js\\app.js"
+			],
+			[
+				"formvalidator",
+				"ixjirs\\app\\models\\Validation\\FormValidator.php"
+			],
+			[
+				"app/views/top",
+				"app\\views\\layouts\\topbar.blade.php"
+			],
+			[
+				"app/views/",
+				"app\\views\\admin\\indexPages.blade.php"
+			],
+			[
+				"sign",
+				"app\\controllers\\SigninController.php"
+			],
+			[
+				"i18n",
+				"app\\libraries\\i18n.php"
+			],
+			[
+				"postsmode",
+				"app\\models\\Admin\\PostsModel.php"
+			],
+			[
+				"showpost",
+				"app\\views\\posts\\showPost.blade.php"
+			],
+			[
+				"postsm",
+				"app\\models\\Admin\\PostsModel.php"
+			],
+			[
+				"home",
+				"app\\controllers\\HomeController.php"
+			],
+			[
+				"/pt.php",
+				"app\\posts\\1398779125\\pt.php"
+			],
+			[
+				"/en",
+				"app\\posts\\1398778840\\en.php"
+			],
+			[
+				"/pt",
+				"app\\posts\\1398712607\\pt.php"
+			],
+			[
+				"/en.php",
+				"app\\posts\\1398712607\\en.php"
+			],
+			[
+				"en.php",
+				"app\\posts\\1398712607\\en.php"
+			],
+			[
+				"pagesmodel",
+				"app\\models\\Admin\\PagesModel.php"
+			],
+			[
+				"editposts",
+				"app\\views\\admin\\editPosts.blade.php"
+			],
+			[
+				"/lang/pt",
+				"app\\lang\\pt\\topbar.php"
+			],
+			[
+				"topbar",
+				"app\\views\\layouts\\topbar.blade.php"
+			],
+			[
+				"pagesc",
+				"app\\controllers\\Admin\\PagesController.php"
+			],
+			[
+				"filter",
+				"app\\filters.php"
+			],
+			[
+				"content",
+				"app\\models\\Admin\\ContentModelInterface.php"
+			],
+			[
+				"controllers/",
+				"app\\controllers\\HomeController.php"
+			],
+			[
+				"cms",
+				"app\\views\\layouts\\admin\\cms.blade.php"
+			],
+			[
+				"indexpage",
+				"app\\views\\admin\\indexPage.blade.php"
+			],
+			[
+				"i18",
+				"app\\libraries\\i18n.php"
+			],
+			[
+				"index",
+				"app\\pages\\pt\\index.php"
+			],
+			[
+				"pagescontr",
+				"app\\controllers\\Admin\\PagesController.php"
+			],
+			[
+				"pages",
+				"app\\controllers\\Admin\\PagesController.php"
+			],
+			[
+				"posts",
+				"app\\controllers\\Admin\\PostsController.php"
+			],
+			[
+				"admin/in",
+				"app\\views\\admin\\indexPage.blade.php"
+			],
+			[
+				"post",
+				"app\\controllers\\Admin\\PostsController.php"
+			],
+			[
+				"sidebar",
+				"app\\views\\layouts\\admin\\sidebar.blade.php"
+			],
+			[
+				"960",
+				"public\\css\\960_16_col.css"
+			],
+			[
+				"style",
+				"public\\css\\style.css"
+			],
+			[
+				"routes",
+				"app\\routes.php"
+			],
+			[
+				"config/",
+				"app\\config\\app.php"
+			],
+			[
+				"css/",
+				"public\\css\\960_16_col.css"
+			],
+			[
+				"erro",
+				"app\\lang\\fr\\erro.php"
+			],
+			[
+				"url",
+				"app\\lang\\en\\url.php"
+			],
+			[
+				"basic",
+				"app\\views\\layouts\\basic.blade.php"
+			],
+			[
+				"showpage",
+				"app\\views\\pages\\showPage.blade.php"
+			],
+			[
+				"aside",
+				"app\\lang\\pt\\aside.php"
+			],
+			[
+				"footer.",
+				"web\\views\\templates\\sections\\footer.twig"
+			],
+			[
+				"patient",
+				"application\\models\\patients.php"
+			],
+			[
+				"avalia",
+				"public\\js\\panel\\avaliacaoProfessores.js"
+			],
+			[
+				"valuation",
+				"application\\views\\panel\\relatorios\\valuation.blade.php"
+			],
+			[
+				"menu/rea",
+				"application\\views\\panel\\menu\\relatorios.blade.php"
+			],
+			[
+				"panel",
+				"application\\controllers\\panel.php"
+			],
+			[
+				"nav.blade",
+				"application\\views\\panel\\menu\\adminPanel.blade.php"
+			],
+			[
+				"area",
+				"application\\models\\area.php"
+			],
+			[
+				"professional",
+				"application\\models\\professional.php"
+			],
+			[
+				"avaliacao",
+				"public\\js\\panel\\avaliacao.js"
+			],
+			[
+				"avaliaca",
+				"application\\views\\panel\\avaliacao.blade.php"
+			],
+			[
+				"rest",
+				"application\\controllers\\restful.php"
+			],
+			[
+				"valu",
+				"application\\views\\panel\\relatorios\\valuation.blade.php"
+			],
+			[
+				"index.js",
+				"public\\js\\panel\\index.js"
+			],
+			[
+				"events.js",
+				"public\\js\\panel\\events.js"
+			],
+			[
+				"profession",
+				"application\\views\\panel\\relatorios\\professional.blade.php"
+			],
+			[
+				"avaliaa",
+				"public\\js\\panel\\avaliacao.js"
+			],
+			[
+				"events",
+				"public\\js\\panel\\events.js"
+			],
+			[
+				"alunos",
+				"public\\js\\panel\\aluno.js"
+			],
+			[
+				"restful",
+				"application\\controllers\\restful.php"
+			],
+			[
+				"profess",
+				"application\\models\\professors.php"
+			],
+			[
+				"procc",
+				"application\\models\\proccesses.php"
+			],
+			[
+				"restf",
+				"application\\controllers\\restful.php"
+			],
+			[
+				"models",
+				"laravel\\tests\\application\\models\\user.php"
+			],
+			[
+				"models/user",
+				"laravel\\tests\\application\\models\\repositories\\user.php"
+			],
+			[
+				"avaliacao.js",
+				"public\\js\\panel\\avaliacao.js"
+			],
+			[
+				"event.js",
+				"public\\js\\panel\\events.js"
+			],
+			[
+				"proc",
+				"public\\js\\panel\\procedimento.js"
+			],
+			[
+				"panel/proc",
+				"application\\views\\panel\\proccesses.blade.php"
+			],
+			[
+				"f",
+				"laravel\\routing\\filter.php"
+			],
+			[
+				"error",
+				"application\\config\\error.php"
+			],
+			[
+				"area.php",
+				"application\\models\\area.php"
+			],
+			[
+				"restufl",
+				"application\\controllers\\restful.php"
+			],
+			[
+				"panel/avaliacao",
+				"application\\views\\panel\\avaliacao.blade.php"
+			],
+			[
+				"models/patie",
+				"application\\models\\patients.php"
+			],
+			[
+				"panel/processes",
+				"application\\views\\panel\\proccesses.blade.php"
+			],
+			[
+				"panel.p",
+				"application\\controllers\\panel.php"
+			],
+			[
+				"header",
+				"themes\\twentythirteen-children\\header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,372 @@
+.green{background-color: green;}
+.blue{background-color: blue;}
+
+body {font: 13px Arial, "Helvetica Neue", Helvetica, sans-serif; color:#312f30; background: url(images/bg_sp.jpg) center no-repeat; background-attachment: fixed; overflow-x: hidden;}
+
+hr {border: 0 solid #ccc; border-top-width: 1px; clear: both; height: 0;}
+
+a{text-decoration: none;}
+
+p{text-align: justify; line-height:24px; }
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6{font-family: "arial black", sans-serif; color: #512424;}
+
+h1 {font-size: 27px; line-height: 27px;}
+h2 {font-size: 24px; line-height: 24px; margin-top: 80px;}
+h3, h4 {font-size: 16px; line-height: 16px; color: #85264e!important;}
+h5 {font-size: 17px;}
+h6 {font-size: 15px;}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+ol {list-style: decimal;}
+ul {list-style: disc;}
+li {margin-left: 30px;}
+
+p, dl, hr, h1, h2, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure, .caixaNews
+{margin-bottom: 20px;}
+
+h3 {margin-bottom: 10px;}
+h4 {margin: 20px 0 0 0;}
+
+/* `Links
+----------------------------------------------------------------------------------------------------*/
+a{color: #bd2a5b;}
+a:hover {color: #5c1634; text-decoration: underline;}
+a:active{color: #5c1634;}
+a:visited{color: #312f30;}
+
+/* `Form
+----------------------------------------------------------------------------------------------------*/
+.inscricaoForm input /*, select*/{border: none; /*background-color: transparent;*/ height: 33px; outline: none; padding: 0 5px; font-size:14px; color:#312f30;background: #fff; }
+#dialog_lembrar_senha input /*, select*/{border: none; /*background-color: transparent;*/ height: 33px; outline: none; padding: 0 5px; font-size:14px; color:#312f30;background: #fff; }
+.inscricaoForm input /*., selectinsc*/{border: 1px solid #d0d0d0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; behavior: url(border-radius.htc); margin-bottom: 20px;}
+#dialog_lembrar_senha input /*., selectinsc*/{border: 1px solid #d0d0d0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; margin-bottom: 20px;}
+.inscricaoForm input[type='radio']{height: inherit;}
+
+/* `Montagem
+----------------------------------------------------------------------------------------------------*/
+.container_16{z-index: 999; position: relative;}
+.espaco{height: 10px;}
+
+/*TOPO*/
+.topoBg{width: 100%; height: 182px; background:#a87546 url(images/background-header-alt.jpg) top center no-repeat; background-size:cover; border-top: 65px solid #401314; border-bottom: 16px solid #d0d0d0; z-index: 1; position: absolute;}
+#topo {/* background: #5c1634; */ height: 182px; margin-bottom:25px;}
+#topo .logo{background: url(../images/_logo.png) no-repeat; height:182px;}
+#topo .hotel{background: url(../images/_hotel.png) no-repeat; height:103px; margin-top: 50px;}
+#topo h1 {
+    font-size:24px;
+    line-height:32px;
+    padding-top: 60px;
+    padding-left:180px;
+    color:#fff;
+}
+
+.topologin{height: 65px; background-color: #401314}
+.topologin form{float: right;padding-top: 8px;}
+.topologin a img{margin: 5px; float: left; padding-top: 8px}
+.topologin input{height: 25px; border-radius: 5px; margin-bottom: 0}
+.topologin input[type='submit']{cursor: pointer; color: #5c1634; font-weight: bold;}
+.topologin span{color: #fff; font-family: 'arial bold', arial; font-weight: bold; font-size: 15px; margin-right: 5px; text-transform: uppercase;}
+
+#lembrar_senha{
+    text-align: right;
+    margin-top: 6px;
+}
+#lembrar_senha a{
+    color: #fff;
+}
+#resposta_senha .sucesso{
+    background: #6A916A;
+    color: #fff;
+    padding: 10px;
+}
+#resposta_senha .erro{
+    background: rgb(233, 133, 133);
+    color: #000;
+    padding: 10px;
+}
+
+/*TOPO - MENU*/
+#menutopo {margin-bottom: 20px; background: #d0d0d0; height: 52px;}
+#menutopo ul li{margin-left: 0;padding-left: 0;}
+#menutopo ul a li{font-size: 14px; text-transform: uppercase; font-family: arial, Helvetica, "Helvetica-neue", sans-serif; color: #5c1634; font-weight: bold;     list-style: none; float: left; line-height: 30px; padding: 0px 10px;margin: 11px 0 11px 40px;}
+#menutopo ul a li:hover,
+#menutopo ul a.active li{color:#fff; background: #5c1634;}
+#menutopo ul a.first li{margin-left: 0px !important;}
+
+/*TOPO - FORM*/
+#formTopo{height: 33px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; behavior: url(border-radius.htc); background: #fff; margin-top: 10px;}
+#formTopo input{border: none; background-color: transparent; height: 33px; margin: 0px !important; width: 120px; float: left; outline: none; padding: 0 5px; font-weight: bold; font-size:14px; color:#b8b7b7; text-transform: uppercase;}
+.botaoFormTopo{background: #fff url(images/ico_lupa.png) no-repeat center center; height: 33px !important; width:30px !important; cursor: pointer;float: left;}
+.botaoFormTopo:hover{opacity: .5;}
+/*Mensagem de erro! Ativar quando necessário.*/
+#msgForm{border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; behavior: url(border-radius.htc);padding: 5px; box-shadow: 1px 1px 1px #ccc; font-size: 10px; margin:35px 0 0 0 ; background: #ececec; color: #5c1634; z-index: 5; display: none;}
+
+/*BASE*/
+#base .apoio{margin: 40px 0 25px 300px; height: 150px;}
+#baseBg{width: 100%; height: 40px; background:#5c1634; border-bottom: 10px solid #330a1c; z-index: 1; position: absolute; color: #fff;}
+#baseBg p a{color: #fff;}
+#baseBg p a:hover{color: #ccc;}
+#baseBg .bruc{width: 940px; margin: 0 auto; text-transform: uppercase; font-size: 10px;}
+#baseBg .bruc p{text-align: right; margin-top: 10px;}
+
+/*MENU LATERAL*/
+#menulateral ul{float: left;}
+#menulateral ul a li{width: 158px; position: relative; display: block; list-style: none; border-bottom: 1px solid #b8b7b7; margin-left: 0; color:#312f30; text-decoration: none; padding: 10px 2px !important; font-size: 14px; line-height: 18px;}
+#menulateral ul a li:hover{color: #5c1634; background-color: #dcdcdc;}
+#menulateral ul a {text-decoration: none;}
+#menulateral ul a.active li{color:#fff; background: #5c1634;}
+
+/*WEATHER*/
+#weather{height: auto !important; background-color: #d0d0d0;}
+#weather h1{font-size: 16px; line-height: 22px; color: #5c1634!important; margin: 8px 0 0 0; text-align: center;}
+#weather h2{font-size: 36px; line-height: 36px; color: #5c1634!important; text-align: center; margin:5px; display: block}
+.iconWeather{margin: 0px 18px;}
+
+/*CONTEÚDO - BEM VINDO*/
+#conteudo .bemVindo{margin-bottom: 20px;}
+#conteudo .blocoNews{}
+.txtBemvindo{text-align: right; margin-top: 160px;}
+
+/*CONTEÚDO - DESTAQUES*/
+.destaque1 h1, .destaque2 h1{display: block; margin-bottom: 3px !important; text-align: center; line-height: 50px;}
+.destaque1 h1{background: #d0d0d0; font-size: 20px !important; color: #555555 !important;}
+.destaque1 h1:hover, .destaque2 h1:hover{background-color: #dcdcdc; color: #86254e !important;}
+.destaque2 h1{background: #b8b7b7; font-size: 22px !important; text-transform: uppercase !important;}
+
+/*CONTEÚDO - NEWS*/
+.dataNews{height: 53px; background:#d0d0d0; border-bottom: 5px solid #5c1634; text-align: center; padding-top: 12px; color: #5e1936;}
+.dataNews b{font-size: 10px; padding-top: 5px; display: block; text-transform: uppercase;}
+.news{border-bottom: 1px solid #5c1634;}
+
+/*DATAS E PRAZOS*/
+.datas, .noticias{z-index: 999; width: 199px; height: 329px; position: absolute; right: -170px; top:316px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out;}
+.datas{right: 0!important}
+.noticias {top:620px; }
+.datas:hover, .noticias:hover{right: 0px; -webkit-transform: translate(0em,0); -ms-transform: translate(0em,0);}
+.dataBox, noticiasBox{color: #555; font-size: 12px; margin-left: 30px; text-align: center; padding:0;}
+.dataBox b, .noticiasBox b{color: #555; font-size: 18px;}
+.dataBox p{line-height:15px; margin:0; padding: 10px 0;}
+.noticiasBox {font-size: 10px; padding: 10px;color: #555}
+.noticiasBox{ background-color: #a8a8a8;}
+.noticiasBox:nth-child(odd){background-color: #d0d0d0}
+.noticiasBox{color: #555; font-size: 10px; margin-left: 30px; text-align: left; padding: 11px 11px;}
+.noticiasBox b{font-size:10px;}
+
+/*LISTAS*/
+ol{margin-top: 20px;line-height: 28px;}
+ol.litextos li{margin-top: 20px !important;}
+ol li b{color:#5c1634;}
+
+/*INSCRIÇÃO*/
+#inscricao{margin-left: 60px;}
+#inscricao label{display: block;}
+#inscricao h2{margin-top: 20px !important;}
+
+.formDescricao{margin-top:-20px; margin-bottom: 20px; font-size: 10px;}
+
+/* `Tabela
+----------------------------------------------------------------------------------------------------*/
+table{border-top:5px solid #872850; border-bottom:5px solid #872850; width: 100%; background: #e7e7e7;}
+td, th{border-left: 1px solid #872850; padding-left: 4px; line-height: 30px; text-align: center;}
+td:first-child{border-left: none;}
+tr:first-child{color:#872850;}
+tr:nth-child(odd){background: #fff;}
+tr:nth-child(2){border-bottom: 1px solid #872850;}
+
+/* Menu de idiomas (autor: André)
+----------------------------------------------------------------------------------------------------*/
+#topo .menuIdiomas { width:auto !important; }
+#topo .menuIdiomas ul { float:right; margin:0px!important; padding:0px!important; }
+#topo .menuIdiomas ul li { padding:0!important; margin:0px!important; display:inline; }
+#topo .menuIdiomas a { width:24px; height:19px; text-indent: -9999px; float:left; }
+#topo .menuIdiomas a.pt { background:url(images/icoBr.png) no-repeat; }
+#topo .menuIdiomas a.en { background:url(images/icoEn.png) no-repeat; margin:0 12px; }
+#topo .menuIdiomas a.fr { background:url(images/icoFr.png) no-repeat; }
+
+/* mapa do local do evento  (autor: André)
+----------------------------------------------------------------------------------------------------*/
+.map{ width:600px !important; height:300px !important; display:table; }
+
+#radio-group-element{
+
+}
+#radio-group-label label{
+    float: none !important;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0;
+}
+#radio-group-element .radio, #radio-group-element label{
+    float: left;
+    margin: 4px;
+}
+#radio-group-element .optional{
+    display: block;
+}
+.dados_inscricao{
+    line-height: 21px;
+    font-size: 14px;
+    border-top: 1px dotted #666;
+    padding-top: 20px;
+}
+
+#paypal_checkout fieldset{
+    border: 1px solid #ccc;
+}
+#paypal_checkout .button{
+    width: 138px;
+    height: 57px;
+    display: block;
+    margin: 20px 0;
+    background: none;
+    border: 0;
+}
+
+label.error{
+    color: red;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+input.error, select.error{
+    border: 1px solid red;
+}
+
+.msg{
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 21px;
+}
+.msg.alert{
+    background: #FBF9C6;
+    color: #000;
+}
+.msg a{
+    color: #85264e;
+    text-decoration: underline;
+}
+
+.ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden; z-index: 9999}
+
+
+
+/*admin styles*/
+.admin .topologin a,
+.admin .topologin a:hover { color:#fff; display:inline-block; padding:23px;}
+
+.admin #topo h1 {
+    color:white;
+    padding:70px 0;
+    margin-bottom: 15px;
+}
+.admin form h2 {
+    margin:40px 0 20px 0;
+}
+.btn {
+    cursor:default;
+    display: inline-block;
+    background:#ededed;
+    padding:3px 7px;
+    border:1px solid #bbb;
+}
+.btn:hover,
+.btn-save:hover,
+.btn-save:active {
+    text-decoration: none;
+    outline: none;
+}
+.btn:active {
+    background: #dedede;
+}
+.btn-save {
+    background: #3355ff;
+    border-color:#1133dd;
+    color: #fff;
+}
+.btn-save:active {
+    background: #7799ff;
+}
+
+.admin-navigation {
+    margin-bottom:20px;
+}
+.admin tr:nth-child(2) {
+    border: none;
+}
+.admin .message {
+    background: #eee;
+    border:1px #000 solid;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding:10px;
+}
+
+.admin .message-success {
+    background: #99cc99;
+}
+
+.admin .message-error {
+    background: #cc9999;
+}
+
+.subscriptionForm div {
+    margin-bottom:10px;
+}
+
+.subscriptionForm label{
+    display:block;
+    font-weight: bold;
+}
+
+.subscriptionForm input[type='text'],
+.subscriptionForm input[type='password'],
+.subscriptionForm select {
+    padding:4px;
+    width:100%;
+}
+
+.subscription input {
+    height: 20px;
+}
+
+.subscription [type='radio'] {
+    width:inherit;
+}
+
+.validation-error {
+    color:red;
+}
+
+blockquote {
+    font-size: 1em;
+    font-color:#999;
+    margin:0 2em 1em 2em;
+    padding-left:1em;
+    font-style: italic;
+    border-left: 2px #ddd solid;
+}
+
+.trabalhos {
+    padding:20px 0;
+    border-bottom:1px #efefef solid;
+    margin-bottom:20px;
+}
+.trabalhos__meta > span {
+    display: block;
+    margin-bottom:5px;
+}
+.trabalhos__meta strong {
+    display: inline-block;
+    width:100px;
+    text-align:right;
+}
+.trabalhos__inner {
+    display: inline-block;
+    margin-left:100px;
+}
