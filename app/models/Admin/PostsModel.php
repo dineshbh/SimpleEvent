@@ -70,11 +70,7 @@ class PostsModel implements ContentModelInterface {
 			];
 		}
 
-		if ($only) {
-			return $posts[$only];
-		} else {
-			return $posts;
-		}
+		return $only ? $posts[$only] : $posts;
 	}
 
 	/**
