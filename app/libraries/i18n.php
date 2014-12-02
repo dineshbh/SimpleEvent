@@ -143,11 +143,8 @@ class I18nHelper {
 	 */
 	public static function getPageFileNameFromSlug($lang, $slug)
 	{
-		if ($key = array_search($slug, self::$lang[$lang])) {
-			return $key;
-		} else {
-			return 'index';
-		}
+		$key = array_search($slug, self::$lang[$lang]);
+		return $key ? $key : 'index';
 	}
 
 	/**
@@ -157,10 +154,8 @@ class I18nHelper {
 	 */
 	public static function getPageNameFromSlug($slug)
 	{
-		if (array_key_exists($slug, self::$names)) {
-			return self::$names[$slug];
-		} else {
-			return 'index';
-		}
+		return array_key_exists($slug, self::$names)
+						? self::$names[$slug]
+						: 'index';
 	}
 }

@@ -44,6 +44,7 @@ class PostsModel implements ContentModelInterface {
 				$pages[] = $id;
 			}
 
+			// if someone wants to use pagination...
 			if ($limit && (count($pages) >= $limit)) {
 				break;
 			}
