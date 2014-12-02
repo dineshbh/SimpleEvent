@@ -30,8 +30,7 @@ class LoginController extends \BaseController {
     $password = Input::get('password');
 
     if (Auth::attempt(['email' => $email, 'password' => $password])) {
-      $user = (new \User)->findByEmail($email);
-      \Session::put('nome', $user['nome']);
+      \Session::put('nome', Auth::user()->nome);
 
       return Redirect::intended('panel/main');
     }
