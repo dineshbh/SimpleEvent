@@ -37,9 +37,9 @@ class InteressadosProcesso extends Eloquent {
 	{
 		if ($this->userExists($card, $userData[$card])) {
 			return $this->updateUser($userData);
-		}	else {
-			return $this->createNewUser($userData, $card);
 		}
+
+		return $this->createNewUser($userData, $card);
 	}
 
 	/**
