@@ -43,8 +43,7 @@ class CMSController extends \BaseController {
 			'password' => Input::get('password'),
 			'active' => 1
 		])) {
-			$user = (new User)->findByEmail(Input::get('email'));
-			\Session::put('nome', $user['nome']);
+			\Session::put('nome', Auth::user()->nome);
 
 			Config::set('auth.model', 'User');
 		  return Redirect::intended('admin/principal');
