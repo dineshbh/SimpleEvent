@@ -68,15 +68,15 @@ class PostsController extends ContentController {
 	{
 		$data = Input::except('_token');
 
-		if ($this->model->save($id, $data, $creating)) {
-			if ($creating) {
-				return \Redirect::to('admin/noticias/')->with('success', 'Página criada com sucesso');
-			} else {
-				return \Redirect::back()->with('success', 'Página atualizada com sucesso');
-			}
-		} else {
+		if (!$this->model->save($id, $data, $creating)) {
 			return \Redirect::back()->with('error', 'Ocorreu um erro ao atualizar a página');
 		}
+
+		if ($creating) {
+			return \Redirect::to('admin/noticias/')->with('success', 'Página criada com sucesso');
+		}
+
+		return \Redirect::back()->with('success', 'Página atualizada com sucesso');
 	}
 
 	/**
