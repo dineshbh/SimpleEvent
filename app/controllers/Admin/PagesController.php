@@ -51,11 +51,9 @@ class PagesController extends ContentController {
 		$result = array_map(function($value) use ($path) {
 			$file_path = $path . DIRECTORY_SEPARATOR . $value . '.php';
 
-			if (File::exists($file_path)) {
-				$date = date('d\/m\/Y H:i:s', File::lastModified($file_path));
-			} else {
-				$date = '-';
-			}
+			$date = File::exists($file_path)
+							? date('d\/m\/Y H:i:s', File::lastModified($file_path))
+							: $date = '-';
 
 			return [
 				'slug' => $value,
@@ -77,10 +75,10 @@ class PagesController extends ContentController {
 		$data = Input::except('_token');
 		$this->model = new PagesModel;
 
-		if ($this->model->save($slug, $data)) {
-			return \Redirect::back()->with('success', 'Página atualizada com sucesso');
-		} else {
+		if (!$this->model->save($slug, $data)) {
 			return \Redirect::back()->with('error', 'Ocorreu um erro ao atualizar a página');
 		}
+
+		return \Redirect::back()->with('success', 'Página atualizada com sucesso');
 	}
 }
