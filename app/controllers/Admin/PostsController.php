@@ -86,10 +86,10 @@ class PostsController extends ContentController {
 	 */
 	public function delete($id)
 	{
-		if (File::deleteDirectory($this->content_path . $id)) {
-			return \Redirect::back()->with('success', 'Página excluída com sucesso');
-		} else {
+		if (!File::deleteDirectory($this->content_path . $id)) {
 			return \Redirect::back()->with('error', 'Ocorreu um erro ao criar a página');
 		}
+
+		return \Redirect::back()->with('success', 'Página excluída com sucesso');
 	}
 }
