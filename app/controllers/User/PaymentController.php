@@ -87,8 +87,8 @@ class PaymentController extends \BaseController {
       'Sender' => [
         'name' => $user->nome,
         'email' => $user->email,
-        'areaCode' => substr($user->telefone, 0, 2),
-        'number' => substr($user->telefone, 2)
+        'areaCode' => substr($user->telefone, 5, 2),
+        'number' => substr($user->telefone, 9)
       ],
       'Address' => [
         'postalCode' => $cep,

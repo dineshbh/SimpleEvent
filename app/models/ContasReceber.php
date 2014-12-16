@@ -83,7 +83,7 @@ class ContasReceber extends Eloquent  {
     $finalDate = date('d\/m\/Y', strtotime('+2 day'));
 
     $id_sp = null;
-    $data = array($subscription->numero, $participation->nome, 1, $participation->valor, 'P', 0.0, 0, 'P', 0, 0, $finalDate, $participation->id_plano, 'C', $cpf, 4, 'SR', '(sistema)', 'S', $this->spReturn);
+    $data = array($subscription->numero, $participation->nome, 1, $participation->valor, 'P', 0.0, 0, 'P', 0, 0, $finalDate, $participation->id_plano, 'C', $cpf, 8, 'SR', '(sistema)', 'S', $this->spReturn);
 
     return $data;
   }
@@ -121,5 +121,35 @@ class ContasReceber extends Eloquent  {
   {
     $url = 'http://professor.uninovafapi.edu.br/relatorios/boletoevento.aspx?id=' . $billet->id;
     return \Redirect::away($url);
+  }
+
+  /**
+   * [updateBilletDueNotification description]
+   * @param  [type] $data     [description]
+   * @param  [type] $document [description]
+   * @return [type]           [description]
+   */
+  public function updateBilletDueNotification($status, $data, $document)
+  {
+    if ($status == 3) {
+      $data = [
+        'valor_pago'        => $transaction->getGrossAmount(),
+        'usuario_baixa'     => 'pagseguro',
+        'id_localpagamento' => 2,
+        'id_formapagamento' => 1,
+        'observacoes'       => 'Codigo pagseguro: ' . $transaction->getPaymentMethod()->getCode()->getValue(),
+        'id_situacao'       => 2,
+        'dt_pagamento'      =>  (new DateTime($transaction->getDate()))->format('d-m-Y')];
+      $document = substr($data['reference'], 4);
+
+      return $this
+        ->where(function ($query) {
+          $query->where('documento', '=', $document);
+          $query->where('id_situacao', '=', 1);
+        })
+        ->update($data);
+    }
+
+    throw new Exception('Erro atualizando transação');
   }
 }

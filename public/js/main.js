@@ -6,11 +6,15 @@ $.fn.ready(function() {
          *  mask form
          */
 
+        $.mask.definitions['h'] = "[A-Za-z]";
+
         $(".cpf").mask("999.999.999-99");
         $(".rg").mask("9999999-9");
         $(".data").mask("99/99/9999");
-        //$(".fone_int").mask("+99 (99) 9999-9999");
+        $("input[name*=Fixo]").mask("+99 (99) 99999999?9");
+        $("input[name*=Celular]").mask("+99 (99) 99999999?9");
         $(".cep").mask("99999-999");
+        $("input[name*=estado").mask('hh');
         //$(".pass").mask("******");
 
 
@@ -32,7 +36,7 @@ $.fn.ready(function() {
                     equalTo: "#participante-p_email"
                 },
                 "participante[p_nome]": {
-                    required: true                  
+                    required: true
                 },
                 "participante[p_senha]": {
                     required: true,
@@ -44,7 +48,7 @@ $.fn.ready(function() {
                 }
             },
             errorPlacement: function(error, element) {
-                
+
             }
         });
 

@@ -4,6 +4,15 @@ use \Admin\PostsModel as PostsModel;
 
 class HomeController extends BaseController {
 
+	protected $pagseguro;
+	protected $historico;
+
+	public function __construct(\PagSeguro $pagseguro, \HistoricoPagSeguro $historico)
+	{
+		$this->pagseguro = $pagseguro;
+		$this->history = $historico;
+	}
+
 	/**
 	 * [showPage description]
 	 * @param  [type] $lang [description]
@@ -63,6 +72,29 @@ class HomeController extends BaseController {
 	 */
 	public function notification()
 	{
-		// TODO
+		$data['transactionType'] = $_POST['notificationType'];
+		$data['code'] = $_POST['notificationCode'];
+
+		$transaction = $this->history->checkTransaction(
+			$data['transactionType'],
+			$this->pagueseguro->credentials(),
+			$data['code']);
+
+		// get transaction reference
+		$data['reference'] = $this->history->reference($transaction);
+
+		$data['transactionStatus'] = $transaction->getStatus()->getValue();
+
+		$data['date'] = (new DateTime($transaction->getDate()))->format('d-m-Y');
+
+		// if exists throws eception
+		$notification = $this->history->getNotificationByCode($data['code']);
+
+		$history = $this->history->create($data);
+
+		$this->contasReceber->updateBilletDueNotification(
+			$data['transactionStatus'],
+			$data,
+			$document);
 	}
 }

@@ -69,7 +69,7 @@ class InscricaoEvento extends Eloquent {
       'id_participacao_evento' => $data['perfil'],
       'id_inscrito'            => $user_id,
       'numero'                 => $numero,
-      'dt_inscricao'           => date('Y-m-d')
+      'dt_inscricao'           => date('Y-d-m')
     ]);
   }
 

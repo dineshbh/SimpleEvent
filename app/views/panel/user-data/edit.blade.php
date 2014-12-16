@@ -23,17 +23,18 @@
             </div>
         @endif
         <div class="payment-box">
-            <?php
-            /*@if (!$paid OR $paid->id_situacao != 2)
+            @if (!$paid OR $paid->id_situacao != 2)
                 <h1>Selecione sua forma de pagamento</h1>
                 {{ Form::open(['route' => ['payment'], 'method' => "POST"]) }}
                     <input type="hidden" name="cpf" value="{{$user->cpf}}">
-                    <input type="hidden" name="participacao" value="{{$user->profissao}}">
-                    <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a>
+                    <input type="hidden" name="participacao" value="{{$user->inscricaoEvento->id_participacao_evento}}">
+                    @if ($user->cpf == '00357119304')
+                        <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a>
+                    @endif
+                    <!-- <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a> -->
                     <button type="submit" name="type" value="pagseguro" class="btn">Pagar com PagSeguro</a>
                 {{Form::close()}}
-            @endif*/
-            ?>
+            @endif
         </div>
         {{ Form::open(["route" => ['user.update'], 'method'=> 'POST', "class" => "subscriptionForm", "files" => true]) }}
             <h2>@lang('subscription.dados')</h2>

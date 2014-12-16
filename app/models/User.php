@@ -50,6 +50,11 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		return $this->email;
 	}
 
+	public function inscricaoEvento()
+  {
+      return $this->hasOne('InscricaoEvento', 'id_inscrito', 'id');
+  }
+
 	/**
 	 * [createUser description]
 	 * @param  array  $data [description]

@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => ['uninovafapi.edu.br/eventos/ixjirs/', 'www.uninovafapi.edu.br/eventos/ixjirs/'],
+	//'local' => ['uninovafapi.edu.br/eventos/ixjirs/', 'www.uninovafapi.edu.br/eventos/ixjirs/'],
   'production' => ['www.jirs2015.com.br', 'jirs2015.com.br'],
 
 ));

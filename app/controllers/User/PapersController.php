@@ -46,8 +46,8 @@ class PapersController extends \BaseController {
   {
     return View::make('panel.papers.listing', [
       'title' => $this->title,
-      'user' => $this->userModel,
-      'lang' => $this->userModel->lang]);
+      'user'  => $this->userModel,
+      'lang'  => $this->userModel->lang]);
   }
 
   /**
@@ -58,7 +58,7 @@ class PapersController extends \BaseController {
   {
     return View::make('panel.papers.create', [
       'title' => $this->title,
-      'user' => $this->userModel,
-      'lang' => $this->userModel->lang]);
+      'user'  => $this->userModel,
+      'lang'  => $this->userModel->lang]);
   }
 }

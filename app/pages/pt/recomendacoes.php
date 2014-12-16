@@ -10,5 +10,5 @@
 <li>No final, acrescentar de 3 a 5 palavras-chave.</li>
 </ol>
 <p><strong>Aten&ccedil;&atilde;o</strong>, n&atilde;o acrescentar no corpo do resumo dados pessoais dos autores.</p>
-<p style="text-align: justify;">Ap&oacute;s o evento, haver&aacute; sele&ccedil;&atilde;o para publica&ccedil;&atilde;o de trabalhos completos. A submiss&atilde;o &eacute; opcional e extensiva a todas as modalidades (SIMP, GDT e SIP). Somente ser&atilde;o publicadas pesquisas j&aacute; conclu&iacute;das que foram apresentadas no evento.</p>
+<p style="text-align: justify;">&nbsp;</p>
 <p>&nbsp;</p>
