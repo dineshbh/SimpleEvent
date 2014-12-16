@@ -34,7 +34,8 @@ class PaymentController extends \BaseController {
     $billet = $this->billet->verify($participation, $cpf);
 
     if (!$billet) {
-      $billet = $this->billet->generate($participation, $cpf);
+      $this->billet->generate($participation, $cpf);
+      $billet = $this->billet->verify($participation, $cpf);
     }
 
     switch ($type) {

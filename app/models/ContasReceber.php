@@ -119,7 +119,9 @@ class ContasReceber extends Eloquent  {
    */
   public function show($billet)
   {
-    $url = 'http://professor.uninovafapi.edu.br/relatorios/boletoevento.aspx?id=' . $billet->id;
+    $id = is_object($billet) ? $billet->id : $billet;
+    $url = 'http://professor.uninovafapi.edu.br/relatorios/boletoevento.aspx?id=' . $id;
+
     return \Redirect::away($url);
   }
 

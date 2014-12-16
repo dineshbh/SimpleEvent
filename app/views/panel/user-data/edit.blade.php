@@ -27,7 +27,7 @@
                 <h1>Selecione sua forma de pagamento</h1>
                 {{ Form::open(['route' => ['payment'], 'method' => "POST"]) }}
                     <input type="hidden" name="cpf" value="{{$user->cpf}}">
-                    <input type="hidden" name="participacao" value="{{$user->inscricaoEvento->id_participacao_evento}}">
+                    <input type="hidden" name="participacao" value="{{$user->inscricaoEvento()->where('id_evento', '=', '41')->first()->id_participacao_evento}}">
                     @if ($user->cpf == '00357119304')
                         <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a>
                     @endif
