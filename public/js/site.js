@@ -1,7 +1,7 @@
 $.fn.ready(function() {
 
     $(document).ready(function() {
-        //alert("teste"); 
+        //alert("teste");
 
 
         $("#participante-instituicao").autocomplete({
@@ -52,19 +52,17 @@ $.fn.ready(function() {
                     text: ENVIAR,
                     click: function() {
                         $.ajax({
-                            url: BASE_URL + "/inscricao/recuperar-senha/",
-                            dataType: "json",
-                            data: {
-                                type: "post",
-                                email: email_recuperar.val(),
-                                idioma: idioma.val(),
-                                datatype: 'json'
+                            type: "POST",
+                            url: 'http://www.jirs2015.com.br/index.php/recovery/',
+                            data: $('#recovery').serializeArray(),
+                            success: function(e) {
+                                console.log(e);
+                                $("#resposta_senha .sucesso").show();
                             },
-                            success: function(data) {
-                                //$("#resposta_senha").addClass(data.class).addClass('msg').html(data.resposta);
-                                
-                                $("#resposta_senha").find("div.active").hide().removeClass('active');
-                                $("#resposta_senha").find("div."+data.class).show().addClass('active');
+                            error: function(e) {
+                                console.log(e);
+                                console.log($('#recovery').serializeArray())
+                                $("#resposta_senha .erro").show();
                             }
                         });
                     }

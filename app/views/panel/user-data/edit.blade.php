@@ -28,9 +28,7 @@
                 {{ Form::open(['route' => ['payment'], 'method' => "POST"]) }}
                     <input type="hidden" name="cpf" value="{{$user->cpf}}">
                     <input type="hidden" name="participacao" value="{{$user->inscricaoEvento()->where('id_evento', '=', '41')->first()->id_participacao_evento}}">
-                    @if ($user->cpf == '00357119304')
                         <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a>
-                    @endif
                     <!-- <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a> -->
                     <button type="submit" name="type" value="pagseguro" class="btn">Pagar com PagSeguro</a>
                 {{Form::close()}}

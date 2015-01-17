@@ -44,6 +44,6 @@ class Subscription {
    */
   public static function paymentStatus($value)
   {
-    return ($value == 1) ? 'Sim' : 'Não';
+    return ($value == 1) ? 'Não' : 'Sim';
   }
 }

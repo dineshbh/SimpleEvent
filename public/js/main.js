@@ -52,5 +52,21 @@ $.fn.ready(function() {
             }
         });
 
+        /*$('#recovery').on('submit', function(e) {
+            e.preventDefault();
+
+            $.ajax({
+                type: "POST",
+                url: 'http://www.jirs2015.com.br/index.php/recovery',
+                data: $('#email_recuperar').val(),
+                success: function(e) {
+                    $("#resposta_senha .sucesso").show();
+                },
+                error: function(e) {
+                    $("#resposta_senha .erro").show();
+                }
+            });
+        });*/
+
     });
 });

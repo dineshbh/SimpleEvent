@@ -38,6 +38,8 @@ class ProfileController extends \BaseController {
     $content = 'Index Page for ProfileController';
     $user    = Auth::user();
 
+    //dd($user);
+
     $billing = new \ContasReceber();
     $billet  = $billing->verify($user->profissao, $user->cpf);
 

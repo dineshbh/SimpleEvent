@@ -19,7 +19,13 @@
           <td>{{ $p->id }}</td>
           <td>{{ $p->user->cpf }}</td>
           <td>{{ $p->user->nome }}</td>
-          <td>{{ \Helpers\Subscription::paymentStatus($p->contasReceber->id_situacao) }}</td>
+          <td>
+            @if ($p->contasReceber)
+              {{ \Helpers\Subscription::paymentStatus($p->contasReceber->id_situacao) }}
+            @else
+              Não
+            @endif
+          </td>
           <td><a href="{{url('admin/inscricoes/inscricao', $p->id)}}">Visualizar inscrição</a></td>
         </tr>
       @endforeach

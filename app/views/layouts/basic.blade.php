@@ -16,13 +16,13 @@
         <link href="{{ asset('css/style.css') }}" media="screen" rel="stylesheet" type="text/css" />
     </head>
 
-    <body>			
+    <body>
         <div class="topoBg"></div>
         <!--CONTENT-->
         <div class="container_16">
 
             @include('layouts.topbar', ['lang' => $lang])
-            
+
             <div class="grid_3 esquerda alpha omega">
                 <!--MENU LATERAL-->
                 @include('layouts.sidebar', ['lang' => $lang])
@@ -49,8 +49,8 @@
         <script type="text/javascript">
         //<![CDATA[
         var FECHAR = "@lang('topbar.fechar')";
-        var ENVIAR = "@lang('topbar.enviar')"; 
-        var BASE_URL = "/site";
+        var ENVIAR = "@lang('topbar.enviar')";
+        var BASE_URL = "/index.php/";
         //]]>
         </script>
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>

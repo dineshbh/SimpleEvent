@@ -4,6 +4,9 @@ Route::filter('payment', '\Filters\PaymentFilter');
 
 Route::when('admin/*', 'csrf', array('post'));
 Route::when('panel/*', 'csrf', array('post'));
+Route::when('recovery', 'csrf', array('post'));
+
+Route::post('recovery', ['as' => 'recovery', 'uses' => '\User\LoginController@recovery']);
 
 Route::get('admin/login', '\Admin\CMSController@loginPage');
 Route::post('admin/login', '\Admin\CMSController@loginAction');

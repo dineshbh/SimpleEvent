@@ -101,3 +101,5 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
+
+Event::listen('email.recovery', 'RecoveryHandler');

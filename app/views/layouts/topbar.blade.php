@@ -12,14 +12,14 @@
     {{ Form::close() }}
     <div id="dialog_lembrar_senha" title="@lang('topbar.esqueci')">
         <p>@lang('topbar.resetar')</p>
-        <form>
+        {{ Form::open(['route' => ['recovery'], 'method' => "POST", 'id' => 'recovery']) }}
             <input type="text" name="email_recuperar" id="email_recuperar" size="50" placeholder="@lang('topbar.email')"/>
             <input type="hidden" id="idioma_site" name="idioma_site" value="{{$lang}}" />
             <div id='resposta_senha'>
                 <div class="sucesso" style="display: none">@lang('topbar.sucesso')</div>
                 <div class="erro" style="display: none;">@lang('topbar.nao_registrado')</div>
             </div>
-        </form>
+        {{Form::close()}}
     </div>
     <?php $slug = Request::segment(2); $last = Request::segment(3); ?>
     <a href="{{ url("pt/" . Helpers\I18nHelper::trans($lang, 'pt', $slug, $last)) }}"><img src="{{ asset('css/images/flagptpq.gif') }}" alt="pt" /></a>

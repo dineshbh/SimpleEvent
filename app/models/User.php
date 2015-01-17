@@ -292,4 +292,24 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	{
 		return self::where('email', '=', $email)->firstOrFail();
 	}
+
+	public function recover($email)
+	{
+		$user = $this->findByEmail($email);
+
+		$password = str_random(10);
+		$user->password = Hash::make($password);
+
+		$data = [
+			'email' => $email,
+			'password' => $password
+		];
+
+		if ($user->save()) {
+			Event::fire('email.recovery', [$data]);
+			return 'true';
+		}
+
+		return 'false';
+	}
 }

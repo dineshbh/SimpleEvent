@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://www.jirs2015.com.br/',
+	'url' => 'http://yoursiteurl.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'sQ8XDSHKopAyNRoi0vwMX0aWHzpCXoA6',
+	'key' => 'yoursecrethere',
 
 	/*
 	|--------------------------------------------------------------------------
