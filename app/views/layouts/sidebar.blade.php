@@ -6,10 +6,10 @@
 	    <a href="{{url($lang . '/' . trans('url.atividades'))}}" class=""><li>@lang('sidebar.atividades')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.presencas'))}}" class=""><li>@lang('sidebar.presencas')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.inscricoes'))}}" class=""><li>@lang('sidebar.inscricoes')</li></a>
+	    <a href="{{url($lang . '/' . trans('url.submissao'))}}" class=""><li>@lang('sidebar.submissao')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.prog_geral'))}}" class=""><li>@lang('sidebar.prog_geral')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.prog_cientifica'))}}" class=""><li>@lang('sidebar.prog_cientifica')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.prog_detalhada'))}}" class=""><li>@lang('sidebar.prog_detalhada')</li></a>
-	    <!-- <a href="{{url($lang . '/' . trans('url.resumos'))}}" class=""><li>@lang('sidebar.resumos')</li></a> -->
 	    <a href="{{url($lang . '/' . trans('url.recomendacoes'))}}" class=""><li>@lang('sidebar.recomendacoes')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.comissoes'))}}" class=""><li>@lang('sidebar.comissoes')</li></a>
 	    <a href="{{url($lang . '/' . trans('url.congressista'))}}" class=""><li>@lang('sidebar.congressista')</li></a>

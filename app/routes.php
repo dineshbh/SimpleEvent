@@ -84,6 +84,8 @@ Route::group(array('prefix' => 'panel', 'before' => 'auth', 'namespace' => 'User
     Route::post('payment', ['as' => 'payment', 'uses' => 'PaymentController@payment']);
 });
 
+Route::get('pt/submissao', ['as' => 'submission', 'before' => 'auth', 'uses' => '\User\PapersController@listing']);
+
 Route::get('/pt/pagina-congressista', function() { return Redirect::route('user.login'); });
 Route::get('/fr/page-personalle', function() { return Redirect::route('user.login'); });
 Route::get('/en/congressist-profile', function() { return Redirect::route('user.login'); });

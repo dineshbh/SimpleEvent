@@ -16,7 +16,7 @@ class I18nHelper {
 			'prog_geral' => 'general-programme',
 			'prog_cientifica' => 'scientific-programme',
 			'prog_detalhada' => 'detailed-programme',
-			'resumos' => 'abstract',
+			'submissao' => 'submission',
 			'recomendacoes' => 'presentation-recomendation',
 			'comissoes' => 'committee-consulants',
 			'congressista' => 'congressist-profile',
@@ -35,7 +35,7 @@ class I18nHelper {
 			'prog_geral' => 'programme-general',
 			'prog_cientifica' => 'programme-cientifique',
 			'prog_detalhada' => 'detaille-programme',
-			'resumos' => 'consignes-auteurs',
+			'submissao' => 'consignes-auteurs',
 			'recomendacoes' => 'recomendations-presentation-communications',
 			'comissoes' => 'comissions',
 			'congressista' => 'page-personalle',
@@ -54,7 +54,7 @@ class I18nHelper {
 			'prog_geral' => 'programacao-geral',
 			'prog_cientifica' => 'programacao-cientifica',
 			'prog_detalhada' => 'programacao-detalhada',
-			'resumos' => 'resumos',
+			'submissao' => 'submissao-trabalhos',
 			'recomendacoes' => 'recomendacoes-apresentacao-trabalhos',
 			'comissoes' => 'comissoes-consultores',
 			'congressista' => 'pagina-congressista',
@@ -76,10 +76,10 @@ class I18nHelper {
 		'atividades' => 'Atividades',
 		'presencas' => 'Presenças Confirmadas',
 		'inscricoes' => 'Inscrições',
+		'submissao' => 'Submissão de Trabalhos',
 		'prog_geral' => 'Programação Geral',
 		'prog_cientifica' => 'Programação Científica',
 		'prog_detalhada' => 'Programação Detalhada',
-		'resumos' => 'Resumos',
 		'recomendacoes' => 'Recomendações para Apresentação de Trabalhos',
 		'comissoes' => 'Comissões e Consultores',
 		'congressista' => 'Página do Congressista',
@@ -93,7 +93,7 @@ class I18nHelper {
 	 * [$slugs description]
 	 * @var [type]
 	 */
-	public static $slugs = ['index', 'historico', 'eixos', 'atividades', 'presencas', 'prog_geral', 'prog_cientifica', 'prog_detalhada', 'resumos', 'recomendacoes', 'comissoes', 'congressista', 'pacotes', 'pos', 'parceiras','conheca',];
+	public static $slugs = ['index', 'historico', 'eixos', 'atividades', 'presencas', 'submissao', 'prog_geral', 'prog_cientifica', 'prog_detalhada', 'recomendacoes', 'comissoes', 'congressista', 'pacotes', 'pos', 'parceiras','conheca',];
 
 	/**
 	 * [trans description]

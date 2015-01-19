@@ -7,10 +7,10 @@ return array(
 	'atividades' => 'atividades',
 	'presencas' => 'presencas-confirmadas',
 	'inscricoes' => 'inscricoes',
+	'submissao' => 'submissao',
 	'prog_geral' => 'programacao-geral',
 	'prog_cientifica' => 'programacao-cientifica',
 	'prog_detalhada' => 'programacao-detalhada',
-	/*'resumos' => 'resumos',*/
 	'recomendacoes' => 'recomendacoes-apresentacao-trabalhos',
 	'congressista' => 'pagina-congressista',
 	'pacotes' => 'pacotes-Hospedagem',

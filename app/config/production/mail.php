@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'port' => 587,
+	'port' => 25,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'jirs2015@uninovafapi.edu.br', 'name' => 'JIRS 2015'),
+	'from' => array('address' => 'no-reply@uninovafapi.edu.br', 'name' => 'JIRS 2015'),
 
 	/*
 	|--------------------------------------------------------------------------
