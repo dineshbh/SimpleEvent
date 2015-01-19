@@ -140,11 +140,11 @@
             </div>
             <div class="clearfix"></div>
 
-            <!-- <div class="{{ $errors->has('dadosPessoais.jantar') ? 'validation-error' : '' }}">
+            <div class="{{ $errors->has('dadosPessoais.jantar') ? 'validation-error' : '' }}">
                 {{ Form::label('dadosPessoais[jantar]', trans('subscription.jantar')) }}
                 {{ Form::radio('dadosPessoais[jantar]', 'S') }} @lang('subscription.jantar-sim')
                 {{ Form::radio('dadosPessoais[jantar]', 'N', true) }} @lang('subscription.jantar-nao')
-            </div> -->
+            </div>
 
             {{ Form::submit(trans('subscription.inscricao'), ['style' => 'float:right', 'class' => 'btn']) }}
 

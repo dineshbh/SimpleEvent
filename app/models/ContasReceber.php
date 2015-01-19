@@ -76,10 +76,10 @@ class ContasReceber extends Eloquent  {
    * @param  [type] $cpf           [description]
    * @return [type]                [description]
    */
-  public function prepareData($participation, $cpf)
+  public function prepareData($participation, $cpf, $dinner = false)
   {
     $participation = $this->participation->getParticipation($participation);
-    $subscription  = $this->subscription->getByCpf($cpf);
+    $subscription  = $this->subscription->getByCpf($cpf, $dinner);
     $finalDate = date('d\/m\/Y', strtotime('+2 day'));
 
     $id_sp = null;
@@ -94,9 +94,11 @@ class ContasReceber extends Eloquent  {
    * @param  [type] $participation [description]
    * @return [type]                [description]
    */
-  public function verify($participation, $cpf)
+  public function verify($participation, $cpf, $dinner = false)
   {
-    $subscription  = $this->subscription->getByCpf($cpf);
+    $subscription  = $this->subscription->getByCpf($cpf, $dinner);
+
+    //dd($subscription);
 
     $billet = ContasReceber::where('documento', '=', $subscription->numero)
       ->whereIn('id_situacao', [1,2])

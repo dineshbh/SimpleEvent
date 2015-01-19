@@ -35,6 +35,7 @@ class ProfileController extends \BaseController {
    */
   public function indexPage()
   {
+
     $content = 'Index Page for ProfileController';
     $user    = Auth::user();
 
@@ -48,7 +49,8 @@ class ProfileController extends \BaseController {
       'content' => $content,
       'user'    => $user,
       'lang'    => $user->lang,
-      'paid'    => $billet]);
+      'paid'    => $billet,
+      'dinner'  => ['billet' => \Session::get('dinner'), 'id' => 2629]]);
   }
 
   /**

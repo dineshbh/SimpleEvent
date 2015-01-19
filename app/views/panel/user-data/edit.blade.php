@@ -24,12 +24,23 @@
         @endif
         <div class="payment-box">
             @if (!$paid OR $paid->id_situacao != 2)
-                <h1>Selecione sua forma de pagamento</h1>
+                <h1>Pagamento pendente da Inscrição</h1>
                 {{ Form::open(['route' => ['payment'], 'method' => "POST"]) }}
                     <input type="hidden" name="cpf" value="{{$user->cpf}}">
                     <input type="hidden" name="participacao" value="{{$user->inscricaoEvento()->where('id_evento', '=', '41')->first()->id_participacao_evento}}">
                         <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a>
-                    <!-- <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a> -->
+                    <button type="submit" name="type" value="pagseguro" class="btn">Pagar com PagSeguro</a>
+                {{Form::close()}}
+            @endif
+        </div>
+        <div class="payment-box">
+            @if (!$dinner['billet'] OR $dinner['billet']->id_situacao != 2)
+                <h1>Pagamento pendente do Jantar</h1>
+                {{ Form::open(['route' => ['payment'], 'method' => "POST"]) }}
+                    <input type="hidden" name="cpf" value="{{$user->cpf}}">
+                    <input type="hidden" name="participacao" value="{{$dinner['id']}}">
+                    <input type="hidden" name="dinner" value="1">
+                    <button type="submit" name="type" value="billet" class="btn" target="_blank">Pagar com Boleto</a>
                     <button type="submit" name="type" value="pagseguro" class="btn">Pagar com PagSeguro</a>
                 {{Form::close()}}
             @endif
@@ -170,12 +181,11 @@
             <div class="{{ $errors->has('dadosPessoais.jantar') ? 'validation-error' : '' }}">
                 {{ Form::label('dadosPessoais[jantar]', trans('subscription.jantar')) }}
                 @if ($user->jantar == 'S')
-                {{ Form::radio('dadosPessoais[jantar]', 'S', true, ['disabled' => 'disabled']) }} @lang('subscription.jantar-sim')
+                {{ Form::radio('dadosPessoais[jantar]', 'S', true) }} @lang('subscription.jantar-sim')
                 {{ Form::radio('dadosPessoais[jantar]', 'N') }} @lang('subscription.jantar-nao')
                 @else
                 {{ Form::radio('dadosPessoais[jantar]', 'S') }} @lang('subscription.jantar-sim')
-                {{ Form::radio('dadosPessoais[jantar]', 'N', true, ['disabled' => 'disabled']) }} @lang('subscription.jantar-nao')
-                <input type="hidden" name="dadosPessoais[jantar]" value="{{$user->jantar}}">
+                {{ Form::radio('dadosPessoais[jantar]', 'N', true) }} @lang('subscription.jantar-nao')
                 @endif
             </div>
 

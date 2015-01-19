@@ -102,4 +102,5 @@ Route::filter('csrf', function()
 	}
 });
 
+Event::listen('dinner.subscription', 'Events\DinnerSubscriptionHandler');
 Event::listen('email.recovery', 'RecoveryHandler');

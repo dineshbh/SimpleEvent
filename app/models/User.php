@@ -102,7 +102,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 			if (!$this->_createUser($userData, $language))
 			{
 				// create a translation to this error
-				throw new \Exceptions\UserCreationException("Houve um problema ao cadastrar usuário");
+				throw new \Exceptions\UserCreationException("Houve um problema ao atualizar usuário");
 			}
 		});
 
@@ -163,9 +163,14 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	private function _updateUser($user, $userData, $language)
 	{
 		$user = $this->fillData($userData, $language, $user, 'update');
+
+		if ($userData['jantar'] == 'S') {
+			$updated = $this->createEventSubscription($userData, true);
+		}
+
 		$user->save();
 
-		return true;
+		return $updated && true;
 	}
 
 	/**
@@ -188,9 +193,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 * @param  [type] $userData [description]
 	 * @return [type]           [description]
 	 */
-	private function createEventSubscription($userData)
+	private function createEventSubscription($userData, $update = false)
 	{
-		$ie = (new InscricaoEvento())->createsubscription($userData);
+		$ie = (new InscricaoEvento())->createsubscription($userData, $update);
 
 		if (!count($ie)) {
 			// create a translation to this error
@@ -231,7 +236,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		$user->passaporte      = $userData['passaporte'];
 		$user->pais            = $userData['pais'];
 		$user->zipcode         = $zip;
-		//$user->jantar          = $userData['jantar'];
+		$user->jantar          = $userData['jantar'];
 
 		if ($type == 'create' || ($type == 'update' && isset($userData['senha_antiga']))) {
 			$old_pass = substr(sha1($userData['senha']), 0, 8);

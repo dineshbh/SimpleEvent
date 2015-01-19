@@ -30,12 +30,13 @@ class PaymentController extends \BaseController {
     $participation = Input::get('participacao');
     $type          = Input::get('type');
     $cpf           = Input::get('cpf');
+    $dinner        = (bool) Input::get('dinner', false);
 
-    $billet = $this->billet->verify($participation, $cpf);
+    $billet = $this->billet->verify($participation, $cpf, $dinner);
 
     if (!$billet) {
       $this->billet->generate($participation, $cpf);
-      $billet = $this->billet->verify($participation, $cpf);
+      $billet = $this->billet->verify($participation, $cpf, $dinner);
     }
 
     switch ($type) {

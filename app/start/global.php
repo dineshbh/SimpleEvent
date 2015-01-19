@@ -64,6 +64,13 @@ App::error(function(Validation\FormValidatorException $exception)
 	return Redirect::back()->withInput()->withErrors($exception->getErrors());
 });
 
+App::error(function(\Exceptions\SubscriptionException $exception)
+{
+    Log::error($exception);
+
+    return Redirect::back()->withInput()->withMessage('Problema ao gravar dados na base de dados. Tente novamente mais tarde. Se o problema persistir, entre em contato com a administração do site');
+});
+
 App::error(function(\Exceptions\ExistentSubscriptionException $exception)
 {
     Log::error($exception);

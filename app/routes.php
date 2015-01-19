@@ -1,10 +1,13 @@
 <?php
 
 Route::filter('payment', '\Filters\PaymentFilter');
+Route::filter('dinner', '\Filters\DinnerFilter');
 
 Route::when('admin/*', 'csrf', array('post'));
 Route::when('panel/*', 'csrf', array('post'));
 Route::when('recovery', 'csrf', array('post'));
+
+Route::when('panel/*', 'dinner');
 
 Route::post('recovery', ['as' => 'recovery', 'uses' => '\User\LoginController@recovery']);
 
