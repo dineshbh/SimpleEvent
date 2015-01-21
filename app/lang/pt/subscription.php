@@ -34,7 +34,7 @@ return [
 	'cep' => 'CEP',
 	'estado' => 'Estado',
 	'pais' => 'Pais',
-	'jantar' => 'Jantar de Gala',
+	'jantar' => 'Jantar de Gala (R$180,00)',
 	'jantar-sim' => 'Sim',
 	'jantar-nao' => 'Não',
 	'inscricao' => 'Realizar Inscrição',

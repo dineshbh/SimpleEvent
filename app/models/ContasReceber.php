@@ -100,10 +100,16 @@ class ContasReceber extends Eloquent  {
 
     //dd($subscription);
 
+    if (is_null($subscription)) {
+      return null;
+    }
+
     $billet = ContasReceber::where('documento', '=', $subscription->numero)
       ->whereIn('id_situacao', [1,2])
       ->orderBy('id', 'DESC,')
       ->first();
+
+    //dd($billet);
 
     if (count($billet) &&
        ($billet->id_situacao == 2 ||

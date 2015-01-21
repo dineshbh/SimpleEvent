@@ -34,7 +34,8 @@
             @endif
         </div>
         <div class="payment-box">
-            @if (!$dinner['billet'] OR $dinner['billet']->id_situacao != 2)
+
+            @if ((!is_null($dinner['billet'])) && (!$dinner['billet'] OR $dinner['billet']->id_situacao != 2))
                 <h1>Pagamento pendente do Jantar</h1>
                 {{ Form::open(['route' => ['payment'], 'method' => "POST"]) }}
                     <input type="hidden" name="cpf" value="{{$user->cpf}}">

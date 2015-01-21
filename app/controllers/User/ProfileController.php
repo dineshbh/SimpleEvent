@@ -44,6 +44,10 @@ class ProfileController extends \BaseController {
     $billing = new \ContasReceber();
     $billet  = $billing->verify($user->profissao, $user->cpf);
 
+    //dd($billet);
+
+    //dd(\Session::get('dinner'));
+
     return View::make("panel.user-data.edit", [
       'title'   => 'Painel do Usuário',
       'content' => $content,

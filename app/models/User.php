@@ -164,6 +164,8 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	{
 		$user = $this->fillData($userData, $language, $user, 'update');
 
+		$updated = true;
+
 		if ($userData['jantar'] == 'S') {
 			$updated = $this->createEventSubscription($userData, true);
 		}

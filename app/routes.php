@@ -7,8 +7,6 @@ Route::when('admin/*', 'csrf', array('post'));
 Route::when('panel/*', 'csrf', array('post'));
 Route::when('recovery', 'csrf', array('post'));
 
-Route::when('panel/*', 'dinner');
-
 Route::post('recovery', ['as' => 'recovery', 'uses' => '\User\LoginController@recovery']);
 
 Route::get('admin/login', '\Admin\CMSController@loginPage');
@@ -53,7 +51,7 @@ Route::get('panel/login', ['as' => 'user.login', 'uses' => '\User\LoginControlle
 Route::post('panel/login', ['as' => 'user.login', 'uses' => '\User\LoginController@loginAction']);
 Route::get('panel/logout', ['as' => 'user.logout', 'uses' => '\User\LoginController@logoutAction']);
 
-Route::group(array('prefix' => 'panel', 'before' => 'auth', 'namespace' => 'User'), function()
+Route::group(array('prefix' => 'panel', 'before' => 'auth|dinner', 'namespace' => 'User'), function()
 {
 
 	Route::get('/', function() { return Redirect::route('papel.main'); });
