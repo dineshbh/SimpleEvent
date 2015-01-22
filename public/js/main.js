@@ -69,4 +69,28 @@ $.fn.ready(function() {
         });*/
 
     });
+
+    $('.resumo').keydown(function() {
+        var regex = /\s+/gi;
+        var text = this.value;
+        var wordCount = this.value.trim().replace(regex, ' ').split(' ').length;
+        var $wordCount = $('.wordCount');
+
+        if ((wordCount < 500) || (wordCount > 700)) {
+            this.value = text;
+        } else {
+            text = this.value;
+        }
+
+        $wordCount.html(wordCount);
+    });
+
+    $('.subscriptionForm').submit(function(e) {
+        var count = $('.wordCount').html();
+
+        if ((count < 500) || (count > 700)) {
+            e.preventDefault();
+            $('.resumo').keydown();
+        }
+    });
 });

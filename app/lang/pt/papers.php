@@ -42,6 +42,14 @@ return array(
     'success' => 'Trabalho enviado com sucesso',
     'server'  => 'Erro no servidor. Tente novamente mais tarde'
   ],
+  'resumo' => [
+    'title' => 'Resumo',
+    'message' => 'Resumo deve conter entre <strong>500 e 700 palavras</strong>',
+    'palavras_chave' => [
+      'title' => 'Palavras-chave',
+      'message' => 'Entre 3 e 5 palavras-chave, separadas por virgula'
+    ]
+  ],
   'language' => [
     'pt' => 'Português',
     'en' => 'Inglês',

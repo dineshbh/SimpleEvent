@@ -98,7 +98,7 @@ class PapersController extends \BaseController {
 
     $this->paperForm->validate($data);
 
-    if (!$this->paper->savePaper($this->destination, $data)) {
+    if (!$this->paper->createPaper($data)) {
       \Session::flash('server', trans('papers.submission.server'));
       Redirect::back()->withInput();
     }

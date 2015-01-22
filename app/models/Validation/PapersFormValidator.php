@@ -11,7 +11,9 @@ class PapersFormValidator extends FormValidator {
     'eixo_tematico' => 'required',
     'titulo' => 'required',
     'autor' => 'required',
-    'arquivo_identificado' => 'required|max:12000',
-    'arquivo_nao_identificado' => 'required|max:12000',
+    'resumo' => 'required',
+    'palavras_chave' => 'required'
+    /*'arquivo_identificado' => 'required|max:12000',
+    'arquivo_nao_identificado' => 'required|max:12000',*/
 	];
 }

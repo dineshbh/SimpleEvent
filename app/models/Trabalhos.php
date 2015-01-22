@@ -18,17 +18,11 @@ class Trabalhos extends Eloquent  {
    */
   protected $table = 'z_evento_trabalhos_novo';
 
-  public function savePaper($destination, $data)
+  public function createPaper($data)
   {
     unset($data['_token']);
-    $this->data = $data;
-    $this->destination = $destination;
 
-    $this->preparePapers(
-      Input::file('arquivo_identificado')->getClientOriginalExtension()
-    );
-
-    return $this->movePaper() ? Trabalhos::create($this->data) : false;
+    return Trabalhos::create($data) ? true : false;
   }
 
   public function fetchPapers($autorId)
@@ -59,6 +53,28 @@ class Trabalhos extends Eloquent  {
   public function retrieveCoAuthors($coAuthorsList)
   {
     return User::select('nome')->whereIn('id', $coAuthorsList)->get();
+  }
+
+  /**
+   * [HERE BE DRAGONS!!!! DON'T TOUCH BELOW THIS LINE]
+   */
+
+  /**
+   * @param  [type] $destination [description]
+   * @param  [type] $data        [description]
+   * @return [type]              [description]
+   */
+  public function savePaper($destination, $data)
+  {
+    unset($data['_token']);
+    $this->data = $data;
+    $this->destination = $destination;
+
+    $this->preparePapers(
+      Input::file('arquivo_identificado')->getClientOriginalExtension()
+    );
+
+    return $this->movePaper() ? Trabalhos::create($this->data) : false;
   }
 
   /**
