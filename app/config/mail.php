@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp.uninovafapi.edu.br',
+	'host' => 'server',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'jirs2015@uninovafapi.edu.br', 'name' => 'JIRS 2015'),
+	'from' => array('address' => 'address', 'name' => 'JIRS 2015'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'no-reply@uninovafapi.edu.br',
+	'username' => 'username',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'portal',
+	'password' => 'pass',
 
 	/*
 	|--------------------------------------------------------------------------

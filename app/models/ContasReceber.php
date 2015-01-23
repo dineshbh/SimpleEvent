@@ -55,9 +55,9 @@ class ContasReceber extends Eloquent  {
    * @param  [type] $cpf           [description]
    * @return [type]                [description]
    */
-  public function generate($participation, $cpf)
+  public function generate($participation, $cpf, $dinner = false)
   {
-    $data = $this->prepareData($participation, $cpf);
+    $data = $this->prepareData($participation, $cpf, $dinner);
 
     try {
       DB::transaction(function() use ($data) {
