@@ -31,8 +31,15 @@ class PapersController extends ContentController {
     return \Redirect::back();
   }
 
-  public function editPaper()
+  public function editPaper($paperId)
   {
-    //return \Redirect::back();
+    $paper = $this->papers->fetchPaper($paperId);
+    return View::make('panel.papers.edit', ['title' => 'Painel Administrativo','paper' => $paper]);
+  }
+
+  public function updatePaper()
+  {
+    $this->papers->updatePaper(\Input::except('_token', '_method'));
+    return \Redirect::back();
   }
 }

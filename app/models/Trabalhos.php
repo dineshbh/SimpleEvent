@@ -28,14 +28,32 @@ class Trabalhos extends Eloquent  {
     return $this->all();
   }
 
+  public function fetchPaper($paperId)
+  {
+    $paper = $this->find($paperId);
+
+    return $this->fetchCoAuthors([$paper])[0];
+  }
+
   public function statusUpdate($data)
   {
     $status = $this->where('id', $data['id'])
       ->update(['aceito' => $data['aceito']]);
 
-      Event::fire('email.papers.status', [$data]);
+    Event::fire('email.papers.status', [$data]);
 
     \Session::flash('status', $data['aceito']);
+    return $status;
+  }
+
+  public function updatePaper($data)
+  {
+    $id = $data['id'];
+    unset($data['id']);
+
+    $status = $this->where('id', $id)->update($data);
+
+    \Session::flash('success', $status);
     return $status;
   }
 

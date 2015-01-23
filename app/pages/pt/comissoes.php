@@ -330,7 +330,10 @@
 	mso-bidi-theme-font:minor-bidi;}
 </style>
 <![endif]-->
-<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal;"><span style="mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; color: black; mso-themecolor: text1;">Adelina Novaes (FCC)</span></p>
+<p class="MsoNormal"><span style="color: black; mso-themecolor: text1;">Adelina Novaes (FCC)</span></p>
+</li>
+<li>
+<p class="MsoNormal"><span style="color: black; mso-themecolor: text1;">Adriane Roso (UFRS)<br /></span></p>
 <!-- [if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
