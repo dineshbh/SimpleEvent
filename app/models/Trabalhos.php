@@ -18,6 +18,27 @@ class Trabalhos extends Eloquent  {
    */
   protected $table = 'z_evento_trabalhos_novo';
 
+  public function author()
+  {
+    return $this->hasOne('User', 'id', 'autor');
+  }
+
+  public function fetchAll()
+  {
+    return $this->all();
+  }
+
+  public function statusUpdate($data)
+  {
+    $status = $this->where('id', $data['id'])
+      ->update(['aceito' => $data['aceito']]);
+
+      Event::fire('email.papers.status', [$data]);
+
+    \Session::flash('status', $data['aceito']);
+    return $status;
+  }
+
   public function createPaper($data)
   {
     unset($data['_token']);
@@ -56,6 +77,10 @@ class Trabalhos extends Eloquent  {
   }
 
   /**
+   * [HERE BE DRAGONS!!!! DON'T TOUCH BELOW THIS LINE]
+   * [HERE BE DRAGONS!!!! DON'T TOUCH BELOW THIS LINE]
+   * [HERE BE DRAGONS!!!! DON'T TOUCH BELOW THIS LINE]
+   * [HERE BE DRAGONS!!!! DON'T TOUCH BELOW THIS LINE]
    * [HERE BE DRAGONS!!!! DON'T TOUCH BELOW THIS LINE]
    */
 

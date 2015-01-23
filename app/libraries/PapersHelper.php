@@ -2,6 +2,15 @@
 
 class PapersHelper {
 
+  public static function status($statusID)
+  {
+    switch ($statusID){
+      case null: return 'Em análise';
+      case 0: return 'Negado';
+      case 1: return 'Aceito';
+    }
+  }
+
   /**
    * [choices description]
    * @return [type] [description]

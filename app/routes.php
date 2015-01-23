@@ -39,7 +39,8 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin_auth', 'namespace' =>
 
     // CRUD Trabalhos
     Route::get('trabalhos', 'PapersController@listing');
-    Route::get('trabalhos/{id}/editar', 'PapersController@edit');
+    Route::get('trabalhos/{id}/editar', ['as'=> 'admin.papers.edit', 'uses' => 'PapersController@editPaper']);
+    Route::post('trabalhos/situacao', ['as'=> 'admin.papers.status', 'uses' => 'PapersController@status']);
 
     // CRUD Certificados
     Route::get('certificados', 'CertsController@listing');

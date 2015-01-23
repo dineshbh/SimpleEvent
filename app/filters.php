@@ -102,5 +102,11 @@ Route::filter('csrf', function()
 	}
 });
 
+
+/*******************
+ * EVENT LISTENERS *
+ *******************/
+
 Event::listen('dinner.subscription', 'Events\DinnerSubscriptionHandler');
 Event::listen('email.recovery', 'RecoveryHandler');
+Event::listen('email.papers.status', 'Events\PapersStatusHandler');

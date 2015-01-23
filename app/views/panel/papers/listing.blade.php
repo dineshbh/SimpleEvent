@@ -18,7 +18,7 @@
       <span><strong>Título:</strong> {{$p->titulo}}</span>
       <span><strong>Idioma:</strong> {{Helpers\PapersHelper::language($p->language)}}</span>
       <span><strong>Tipo:</strong> {{Helpers\PapersHelper::choiceText($p->tipo_trabalho)}}</span>
-      <span><strong>Autor:</strong> {{$p->autor}}</span>
+      <span><strong>Autor:</strong> {{$p->author->nome}}</span>
       <span><strong>Co-Autores:</strong><span class="trabalhos__inner">
         @if (count($p->coAuthors))
           @foreach ($p->coAutor as $c)
@@ -27,9 +27,10 @@
         @endif
       </span></span>
       <span><strong>Eixo Temático:</strong> {{Helpers\PapersHelper::axisText($p->eixo_tematico)}}</span></span>
-      <span><strong>Arquivos:</strong>
+      <!-- <span><strong>Resumo</strong> <span class="trabalhos__inner">{{$p->resumo}}</span></span> -->
+      <!-- <span><strong>Arquivos:</strong>
       <a href="{{asset('storage/uploads/' . $p->arquivo_identificado)}}">Arquivo Identificado</a>, <a href="{{asset('storage/uploads/' . $p->arquivo_nao_identificado)}}">Arquivo Não Identificado</a>
-      </span>
+      </span> -->
     </div>
   </div>
   @endforeach
