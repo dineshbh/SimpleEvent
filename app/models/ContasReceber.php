@@ -82,6 +82,8 @@ class ContasReceber extends Eloquent  {
     $subscription  = $this->subscription->getByCpf($cpf, $dinner);
     $finalDate = date('d\/m\/Y', strtotime('+2 day'));
 
+    //dd($participation->id_plano, $subscription, $cpf, $dinner, $finalDate);
+
     $id_sp = null;
     $data = array($subscription->numero, $participation->nome, 1, $participation->valor, 'P', 0.0, 0, 'P', 0, 0, $finalDate, $participation->id_plano, 'C', $cpf, 8, 'SR', '(sistema)', 'S', $this->spReturn);
 

@@ -8,7 +8,7 @@ class LoginFormValidator extends FormValidator {
 	protected $rules = [
 		'language' => 'required',
 		'dadosPessoais.nome' => 'required',
-		'dadosPessoais.senha' => 'required|min:8',
+		'dadosPessoais.senha' => 'required',
 		'dadosPessoais.confirmarSenha' => 'required|same:dadosPessoais.senha',
 		'dadosPessoais.nascimento' => 'required|date_format:d\/m\/Y',
 		'dadosPessoais.telefoneFixo' => 'required',

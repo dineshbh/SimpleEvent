@@ -52,24 +52,22 @@ class InscricaoEvento extends Eloquent {
     $user    = new User();
     $user_id = $user->getUserDatabyCPF($data['cpf'], ['id'])->id;
 
-    $basicSubscription = false;
-    $dinnerSubscription = false;
+    //dd($user_id);
+
+    $basicSubscriptionSuccess  = true;
+    $dinnerSubscriptionSuccess = true;
 
     try {
       DB::beginTransaction();
 
-      $basicSubscription = true;
-
       /*only let user subscribe on both ok*/
       if (!$update) {
-        $basicSubscription  = $this->basicSubscription($user, $user_id);
+        $basicSubscriptionSuccess = $this->basicSubscription($user, $user_id, $data);
       }
-
-      $dinnerSubscription = true;
 
       if ($data['jantar'] == 'S') {
         $dinnerSubscription = $this->dinnerSubscription($user, $user_id);
-      }
+      } else
       /*only let user subscribe on both ok*/
 
       DB::commit();
@@ -78,12 +76,14 @@ class InscricaoEvento extends Eloquent {
       throw new \Exceptions\SubscriptionException('Problema ao gravar dados na base de dados. Tente novamente mais tarde. Se o problema persistir, entre em contato com a administração do site');
     }
 
-    if ($dinnerSubscription) {
+    if (isset($dinnerSubscription) && $dinnerSubscription) {
       $data['jantar_id'] = self::DINNER_ID;
       Event::fire('dinner.subscription', [$data]);
     }
 
-    return $basicSubscription && $dinnerSubscription;
+    return $basicSubscriptionSuccess &&
+          ($dinnerSubscriptionSuccess ||
+           $dinnerSubscription);
   }
 
   /**
@@ -92,10 +92,12 @@ class InscricaoEvento extends Eloquent {
    * @param  [type] $user_id [description]
    * @return [type]          [description]
    */
-  public function basicSubscription($user, $user_id)
+  public function basicSubscription($user, $user_id, $data)
   {
+    //dd($user, $user_id, $data);
+
     $existsSubscription = InscricaoEvento::where('id_inscrito', '=', $user_id)
-      ->where('id_evento', '=', Config::get('event.id'))
+      ->where('id_evento', '=', \Config::get('event.id'))
       ->where('id_participacao_evento', '=', $data['perfil'])
       ->get();
 
